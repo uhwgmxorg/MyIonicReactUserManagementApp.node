@@ -1,0 +1,22 @@
+// Use
+// npx prisma db pull
+// npx prisma generate
+// npx prisma migrate
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://dev_user:passwort@localhost:5432/mydb?schema=dev"
+}
+
+model users {
+  id       Int    @id @default(autoincrement())
+  username String @db.VarChar(50)
+  email    String @db.VarChar(100)
+  password String @db.VarChar(255)
+}
