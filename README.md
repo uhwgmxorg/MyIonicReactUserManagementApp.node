@@ -15,8 +15,14 @@ A PostgreSQL database or simple JSON files can be used for local data storage. T
 
 ![img](https://github.com/uhwgmxorg/MyIonicReactUserManagementApp.node/blob/master/Doc/95_1.png)
 
-The web application can be started with `ionic serve`. The node modules must first be installed using `npm install`.
+The web application can be started with: 
+
+`ionic serve`. 
+
+The node modules must first be installed using: 
+
+`npm install`.
 
 ![img](https://github.com/uhwgmxorg/MyIonicReactUserManagementApp.node/blob/master/Doc/95_2.png)
 
-You can get more Information on: https://uhwgmxorg.wordpress.com/2023/02/12/mynodejsminihttpserver-node
+You can get more Information on: https://uhwgmxorg.wordpress.com/2023/05/02/myionicreactusermanagementapp/
