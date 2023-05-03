@@ -11,8 +11,8 @@ Essentially, the following concepts are demonstrated:
 
 A PostgreSQL database or simple JSON files can be used for local data storage. The web service is implemented in a Docker container and can be run with the following command if Docker is installed:
 
-`docker run -d -p 8081:8081 uhwgmxorg/my-user-management-json-docker-image:0.0.0`
-or
+`docker run -d -p 8081:8081 uhwgmxorg/my-user-management-json-docker-image:0.0.0`<br/>
+or<br/>
 `docker run --name my-container -p 8081:8081 -p 5432:5432 -e POSTGRES_USER=dev_user -e POSTGRES_PASSWORD=password -e POSTGRES_DB=mydb -d uhwgmxorg/my-user-management-postgresql-docker-image:0.0.0`
 
 to use the Web-Service with a PostgreSQL DB
